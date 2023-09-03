@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    background: beige;
+}
+.bg-container{
+    /* background-image: linear-gradient(to bottom right, green,blue); */
+    background-image: url('./images/chepauk-stadium.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+   /*color: rgb(255, 0, 0);*/
+   padding-top: 20px;
+   margin: 0px;
+   margin-bottom: 20px;
+   background: -webkit-linear-gradient(#ff02c0, #ff7300,#ff01bf);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+p{
+    text-align: center;
+    font-size: 37px;
+    background: -webkit-linear-gradient(#000000, #2200ff,#000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img{
+    height:50%;
+    width: 40%;
+    display: flex;
+    margin: auto; 
+    border-radius: 30px; 
+}
+button{
+    height: 50px;
+    width: 200px;
+    margin: 5px 20px;
+    size: 50px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+}
+.btn-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bt-container{
+    align-items: end;
+    text-align: left;
+    margin-top: -45vh;
+    margin-left: 10%;
+}
+.b-container{
+    align-items: end;
+    text-align: right;
+    margin-top: -4.5%;
+    margin-right: 10%;
+   
+}
